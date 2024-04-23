@@ -25,7 +25,7 @@ def calcular_hash1(cadena):
     return hash_hex
 
 # Ejemplo de uso
-cadena_original = "Hola, este es un ejemplo de hashing en Python"
+cadena_original = "Hola, este es un ejemplo de hashing en Python."
 hash1_resultado = calcular_hash1(cadena_original)
 hash256_resultado = calcular_hash256(cadena_original)
 print("Cadena original:", cadena_original)
